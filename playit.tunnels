@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "jun-edited.gl.joinmc.link",
+          "assigned_srv": "jun-edited.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "12bc8c27-13ff-4cc3-a1cb-8711e7b57ece",
+          "ip_hostname": "21.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 29605,
+          "port_start": 29604,
+          "region": "global",
+          "static_ip4": "147.185.221.21",
+          "tunnel_ip": "2602:fbaf:0:1::15"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-22T18:31:33.446030Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "4bbb7be2-28f6-48e8-ab48-3ef23530ad97",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "0302e24c-898d-4409-9898-73e8600fe20d",
+          "agent_name": "Server vacaciones",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
